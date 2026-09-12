@@ -1,0 +1,7 @@
+This project contains both software and hardware components.
+
+Software is licensed under the GNU General Public License v3.0.
+See [SOFTWARE-LICENSE](./SOFTWARE-LICENSE) for full terms.
+
+Hardware is licensed under the CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S v2).
+See [HARDWARE-LICENSE](./HARDWARE-LICENSE) for full terms.
