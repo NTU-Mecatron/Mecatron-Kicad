@@ -1,0 +1,160 @@
+(footprint "FUSE-MCCQ-121"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.143 -3.543 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d6587762-b26f-4da7-b563-01dc4a51d91d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FUSE-MCCQ-121"
+		(at 0.016 3.696 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d06768af-0353-4365-90f0-c72489b3cb7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35088c8f-13c1-4dd5-a34e-5db203c9a794")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4efdd95-ce06-45fa-95ac-57621143572c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9.5 -3)
+		(end 9.5 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "98019f6f-817d-4c0a-95db-0628898ea365")
+	)
+	(fp_rect
+		(start -9.5 -3)
+		(end 9.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4b286927-547e-45d8-a240-043d9008e422")
+	)
+	(fp_line
+		(start -9.5 -3)
+		(end 9.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "e86f773e-5ff5-4cb2-8c8c-e4f970a0e224")
+	)
+	(fp_line
+		(start 9.5 -3)
+		(end -9.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "118db8a7-110e-4ae5-8bb9-3c961e3b2922")
+	)
+	(pad "1" thru_hole roundrect
+		(at -7 0)
+		(size 3.5 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "50eb28b9-c5a9-4677-8e4e-658a1f56917e")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2 0)
+		(size 3 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "ed597757-41e7-48d5-af5e-baf40e99a9d3")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2 0)
+		(size 3 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "b26f6044-2b38-4ccf-9f4a-0a472c8b8275")
+	)
+	(pad "2" thru_hole roundrect
+		(at 7 0)
+		(size 3.5 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "a847043a-2484-474d-8a0e-5f75db931ffe")
+	)
+	(embedded_fonts no)
+	(model "${MECATRON_KICAD_DIR}/3dmodels/Fuses/MCCQ-121-ATO.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MECATRON_KICAD_DIR}/3dmodels/Fuses/ATO_ATC-Fuse.step"
+		(offset
+			(xyz -16 -11 18)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 0)
+		)
+	)
+)
