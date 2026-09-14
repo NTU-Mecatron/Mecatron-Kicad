@@ -21,6 +21,7 @@
     "resources": {
         "homepage": "https://github.com/NTU-Mecatron/Mecatron-Kicad",
         "documentation": "https://github.com/NTU-Mecatron/Mecatron-Kicad/wiki",
+        "issue-tracker": "https://github.com/NTU-Mecatron/Mecatron-Kicad/issues",
         "source": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
     },
     "tags": [
