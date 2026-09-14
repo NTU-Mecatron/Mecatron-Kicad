@@ -17,7 +17,7 @@
             "web": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
         }
     },
-    "license": "CERN-OHL-S-2.0",
+    "license": "CERN-OHL",
     "resources": {
         "homepage": "https://github.com/NTU-Mecatron/Mecatron-Kicad",
         "documentation": "https://github.com/NTU-Mecatron/Mecatron-Kicad/wiki",
@@ -28,7 +28,7 @@
         "library",
         "footprints",
         "symbols",
-        "3dmodels",
+        "models-3d",
         "kicad"
     ],
     "versions": [

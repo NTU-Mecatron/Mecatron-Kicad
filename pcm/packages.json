@@ -8,18 +8,18 @@
       "identifier": "mecatron-kicad-lib",
       "type": "library",
       "author": {
-        "name": "NTU Mecatron",
+        "name": "mecatron",
         "contact": {
           "web": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
         }
       },
       "maintainer": {
-        "name": "NTU Mecatron",
+        "name": "mecatron",
         "contact": {
           "web": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
         }
       },
-      "license": "CERN-OHL-S-2.0",
+      "license": "CERN-OHL",
       "resources": {
         "homepage": "https://github.com/NTU-Mecatron/Mecatron-Kicad",
         "documentation": "https://github.com/NTU-Mecatron/Mecatron-Kicad/wiki",
@@ -30,7 +30,7 @@
         "library",
         "footprints",
         "symbols",
-        "3dmodels",
+        "models-3d",
         "kicad"
       ],
       "versions": [
@@ -38,10 +38,10 @@
           "version": "1.0.0",
           "status": "stable",
           "kicad_version": "9.0.0",
-          "download_url": "https://github.com/NTU-Mecatron/Mecatron-Kicad/releases/download/v1.0.0/mecatron-kicad-lib-1.0.0.zip",
-          "download_sha256": "39d35b49a1001ebe8af7550c9db2d6a9f04b07bc805d84e90744140dde368599",
-          "download_size": 11763512,
-          "install_size": 46865159
+          "download_url": "http://localhost:8000/dist/mecatron-kicad-lib-1.0.0.zip",
+          "download_sha256": "4fcc1f2a50d4c71cb1c7326a23b9d9d7d8319fd05883b64ac24409db40018fad",
+          "download_size": 11768836,
+          "install_size": 46865146
         }
       ]
     }
