@@ -738,7 +738,7 @@
 			(checksum "9E1F67589370461255C830F60CC31F08")
 		)
 	)
-	(model "kicad-embed://Fuse-MCCQ-122-MiniBlade.step"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/Fuses.3dshapes/MCCQ-122-MiniBlade.step"
 		(offset
 			(xyz -1.9 -0.75 2)
 		)

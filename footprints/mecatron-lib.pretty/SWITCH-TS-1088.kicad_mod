@@ -990,7 +990,7 @@
 			(checksum "762F368F741C1B602C2D60ACEE87066F")
 		)
 	)
-	(model "kicad-embed://Switch-TS-1088-AR02016.step"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/Switches.3dshapes/TS-1088-AR02016.step"
 		(offset
 			(xyz 0 0 0)
 		)

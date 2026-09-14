@@ -513,7 +513,7 @@
 			(checksum "7BE5E86B54B37E570665C1C1E2C588DA")
 		)
 	)
-	(model "kicad-embed://Amass_XT60-F-V.step"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/AMASS.3dshapes/Amass_XT60-F-V.step"
 		(offset
 			(xyz 0 0 0)
 		)

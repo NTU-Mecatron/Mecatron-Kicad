@@ -398,7 +398,7 @@
 			(checksum "CEBBCFF59861130165E286EC7DA4B1DA")
 		)
 	)
-	(model "kicad-embed://Fuse-MCCQ-121-ATO.step"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/Fuses.3dshapes/MCCQ-121-ATO.step"
 		(offset
 			(xyz 0 0 0)
 		)
