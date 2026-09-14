@@ -1,0 +1,49 @@
+{
+  "packages": [
+    {
+      "$schema": "https://go.kicad.org/pcm/schemas/v1",
+      "name": "Mecatron KiCad Library",
+      "description": "Footprints, symbols, and 3D models for Mecatron projects.",
+      "description_full": "The Mecatron KiCad Library provides a unified set of schematic symbols, PCB footprints, and 3D models used across Mecatron projects. This collection is designed for high-quality mechanical and electronic design integration in KiCad. It includes verified component geometries, standardized naming, and consistent 3D alignment to support professional PCB workflows.",
+      "identifier": "mecatron-kicad-lib",
+      "type": "library",
+      "author": {
+        "name": "NTU Mecatron",
+        "contact": {
+          "web": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
+        }
+      },
+      "maintainer": {
+        "name": "NTU Mecatron",
+        "contact": {
+          "web": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
+        }
+      },
+      "license": "CERN-OHL-S-2.0",
+      "resources": {
+        "homepage": "https://github.com/NTU-Mecatron/Mecatron-Kicad",
+        "documentation": "https://github.com/NTU-Mecatron/Mecatron-Kicad/wiki",
+        "source": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
+      },
+      "tags": [
+        "mecatron",
+        "library",
+        "footprints",
+        "symbols",
+        "3dmodels",
+        "kicad"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "status": "stable",
+          "kicad_version": "9.0.0",
+          "download_url": "https://github.com/NTU-Mecatron/Mecatron-Kicad/releases/download/v1.0.0/mecatron-kicad-lib-1.0.0.zip",
+          "download_sha256": "39d35b49a1001ebe8af7550c9db2d6a9f04b07bc805d84e90744140dde368599",
+          "download_size": 11763512,
+          "install_size": 46865159
+        }
+      ]
+    }
+  ]
+}

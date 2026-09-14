@@ -1,0 +1,15 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1#/definitions/Repository",
+  "name": "Mecatron KiCad Library",
+  "maintainer": {
+    "name": "NTU Mecatron",
+    "contact": {
+      "web": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
+    }
+  },
+  "packages": {
+    "url": "https://raw.githubusercontent.com/NTU-Mecatron/Mecatron-Kicad/main/pcm/packages.json",
+    "sha256": "1fb6b45dacedcf22d80126039fc40c3a3ad15aaa64d191f4c3ac156a9bf7e5b5",
+    "update_timestamp": 1789395265
+  }
+}
