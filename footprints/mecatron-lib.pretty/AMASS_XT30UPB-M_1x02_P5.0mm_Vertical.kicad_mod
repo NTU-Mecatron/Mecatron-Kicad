@@ -3483,7 +3483,7 @@
 			(checksum "3A30036DC6A101A5E9DF879BA9C5E92B")
 		)
 	)
-	(model "kicad-embed://Amass_XT30UPB-M.step"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/AMASS.3dshapes/Amass_XT30UPB-M.step"
 		(offset
 			(xyz 0 0 0)
 		)

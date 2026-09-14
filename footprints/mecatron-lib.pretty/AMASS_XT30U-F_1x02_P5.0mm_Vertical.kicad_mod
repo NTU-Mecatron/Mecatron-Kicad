@@ -297,7 +297,7 @@
 		(uuid "42eb4bb0-cab3-4ff6-883f-d67f54fc761e")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/OS/Downloads/Amass_XT30UPB-F.step"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/AMASS.3dshapes/Amass_XT30UPB-F.step"
 		(offset
 			(xyz 2.5 0 0)
 		)

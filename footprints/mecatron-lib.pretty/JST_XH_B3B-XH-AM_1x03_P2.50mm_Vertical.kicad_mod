@@ -836,7 +836,7 @@
 			(checksum "96E91D7DA7191B480F30AC58370BB13A")
 		)
 	)
-	(model "kicad-embed://JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical.step"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/JST.3dshapes/JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical.step"
 		(offset
 			(xyz -2.5 0 0)
 		)

@@ -2269,51 +2269,7 @@
 			(checksum "5AB33387E33B5A3E1CFDA521B1E34C36")
 		)
 	)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x09_P2.54mm_Vertical.step"
-		(offset
-			(xyz 7.5 10 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -0)
-		)
-	)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x09_P2.54mm_Vertical.step"
-		(offset
-			(xyz -7.5 10 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -0)
-		)
-	)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x09_P2.54mm_Vertical.step"
-		(offset
-			(xyz -7.5 -10.3 11)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -180 -0 -0)
-		)
-	)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x09_P2.54mm_Vertical.step"
-		(offset
-			(xyz 7.5 -10.3 11)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -180 -0 -0)
-		)
-	)
-	(model "kicad-embed://ESP32-S3-SuperMini.step"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/ESP32.3dshapes/ESP32-S3-SuperMini.step"
 		(offset
 			(xyz 0 -0.4 11)
 		)
