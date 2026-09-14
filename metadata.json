@@ -3,7 +3,7 @@
     "name": "Mecatron KiCad Library",
     "description": "Footprints, symbols, and 3D models for Mecatron projects.",
     "description_full": "The Mecatron KiCad Library provides a unified set of schematic symbols, PCB footprints, and 3D models used across Mecatron projects. This collection is designed for high-quality mechanical and electronic design integration in KiCad. It includes verified component geometries, standardized naming, and consistent 3D alignment to support professional PCB workflows.",
-    "identifier": "mecatron-kicad-library",
+    "identifier": "mecatron-kicad-lib",
     "type": "library",
     "author": {
         "name": "NTU Mecatron",
@@ -17,7 +17,7 @@
             "web": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
         }
     },
-    "license": "CERN-OHL-S",
+    "license": "CERN-OHL-S-2.0",
     "resources": {
         "homepage": "https://github.com/NTU-Mecatron/Mecatron-Kicad",
         "documentation": "https://github.com/NTU-Mecatron/Mecatron-Kicad/wiki",
