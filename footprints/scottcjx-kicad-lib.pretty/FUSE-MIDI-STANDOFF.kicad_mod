@@ -1,0 +1,255 @@
+(footprint "FUSE-MIDI-STANDOFF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MIDI Fuse with standoffs")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cedabbd2-b601-4442-9f4f-3a2d7f042c03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FUSE-MIDI-STANDOFF"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6f0466b5-58f7-48b5-90c4-91fb77be0155")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4da93ffe-15b1-466e-ad3b-29a935cda359")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb9bd058-a4fa-4f04-964b-8b1d02c7c3c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -21.25 -6.75)
+		(end 21.25 6.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "47c2cba1-67c6-4a49-a41a-09fd7755d8af")
+	)
+	(fp_line
+		(start -15 0)
+		(end -20.75 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "57a5395c-18f1-4cd5-86a0-3cf91bec68b4")
+	)
+	(fp_line
+		(start -15 0)
+		(end -9.25 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e3054e49-99b1-4cb4-be62-0b51c492d4d9")
+	)
+	(fp_line
+		(start 15 0)
+		(end 9.25 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7708a253-d374-482c-a0e3-4ff3cac539e1")
+	)
+	(fp_line
+		(start 15 0)
+		(end 20.75 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a4ff5041-376e-4163-b29c-ba1122644d8b")
+	)
+	(fp_rect
+		(start -20.75 -6.75)
+		(end -9.25 6.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cb6e9330-143a-4c4f-a73e-48185d1b36e4")
+	)
+	(fp_rect
+		(start 9.25 -6.75)
+		(end 20.75 6.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "55b3af9f-38ed-4469-a8d9-a6440c4c914a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d36b24c2-eb6f-4e20-a92f-8410b96e4a3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -15 0)
+		(size 5.3 5.3)
+		(drill 5.3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9267f9a3-36c6-4c60-b808-8902eedf0656")
+	)
+	(pad "" np_thru_hole circle
+		(at 15 0)
+		(size 5.3 5.3)
+		(drill 5.3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c1d12e76-5eb2-4d9e-88f6-f2f249b8a5ef")
+	)
+	(pad "1" thru_hole oval
+		(at -17.5 -5.25)
+		(size 3.7 2.6)
+		(drill oval 2.9 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be0c9fa5-248d-4db7-b266-784042eb87d6")
+	)
+	(pad "1" thru_hole oval
+		(at -17.5 5.25)
+		(size 3.7 2.6)
+		(drill oval 2.9 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8e3f03ac-baa4-455c-b2a5-e1d09dc438f0")
+	)
+	(pad "1" thru_hole oval
+		(at -12.5 -5.25)
+		(size 3.7 2.6)
+		(drill oval 2.9 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7306933-2cc9-4a89-a1b8-9dd37cf10808")
+	)
+	(pad "1" thru_hole oval
+		(at -12.5 5.25)
+		(size 3.7 2.6)
+		(drill oval 2.9 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4400759b-2be2-4eaa-85b6-583e732bb29c")
+	)
+	(pad "2" thru_hole oval
+		(at 12.5 -5.25)
+		(size 3.7 2.6)
+		(drill oval 2.9 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5bcf7ba-bb86-448a-9446-8115b90622bc")
+	)
+	(pad "2" thru_hole oval
+		(at 12.5 5.25)
+		(size 3.7 2.6)
+		(drill oval 2.9 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4d1e142d-1156-40f2-9e09-b9be375d1b89")
+	)
+	(pad "2" thru_hole oval
+		(at 17.5 -5.25)
+		(size 3.7 2.6)
+		(drill oval 2.9 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b56fb6d8-7f9c-42bc-9fbf-6c7aeda340c2")
+	)
+	(pad "2" thru_hole oval
+		(at 17.5 5.25)
+		(size 3.7 2.6)
+		(drill oval 2.9 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d59d13c-747f-466a-a2f8-5667f7c0f4f2")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/OS/Downloads/MIDI Fuse Standoff.step"
+		(offset
+			(xyz -15 0 7.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "C:/Users/OS/Downloads/MIDI Fuse Standoff.step"
+		(offset
+			(xyz 15 0 7.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "C:/Users/OS/Downloads/3D_model_0498000_Midi_2M5_0.63 (1).stp"
+		(offset
+			(xyz 24.5 -6 13.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
