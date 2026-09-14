@@ -11,10 +11,10 @@
             "web": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
         }
     },
-    "maintainer": {
-        "name": "Jerry Zhang",
+    "maintainer":{ 
+        "name": "mecatron",
         "contact": {
-            "web": "https://github.com/jerryrzhang"
+            "web": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
         }
     },
     "license": "CERN-OHL-S-2.0",
