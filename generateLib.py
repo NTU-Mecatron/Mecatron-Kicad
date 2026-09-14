@@ -26,7 +26,7 @@ with zipfile.ZipFile('dist/mecatron-kicad-lib-1.0.0.zip', 'w', zipfile.ZIP_DEFLA
                 if path.is_file():
                     zipf.write(
                         path,
-                        arcname=entry.relative_to(directory)
+                        arcname=path.relative_to(directory)
                     )
                     installSize += path.stat().st_size
 def sha256 (path): # create sha256 of file
@@ -48,7 +48,8 @@ meta = json.load(open("metadata.json"))
 
 version = meta["versions"][0]["version"] #grab versions out 
 meta["versions"][0].update({ # inject post package fields into the metadata. Defined here: https://dev-docs.kicad.org/en/addons/index.html
-    "download_url": f"https://github.com/NTU-Mecatron/Mecatron-Kicad/releases/download/v{version}/{zipPath.name}",
+    #"download_url": f"https://github.com/NTU-Mecatron/Mecatron-Kicad/releases/download/v{version}/{zipPath.name}",
+    "download_url": f"http://localhost:8000/dist/{zipPath.name}",
     "download_sha256": zipSha,
     "download_size": zipSize,
     "install_size": installSize,
@@ -67,7 +68,8 @@ repository =  {
     "name": meta["name"],
     "maintainer": meta["maintainer"],
     "packages": {
-        "url": "https://raw.githubusercontent.com/NTU-Mecatron/Mecatron-Kicad/main/pcm/packages.json",
+        "url": "http://localhost:8000/pcm/packages.json",
+        #"url": "https://raw.githubusercontent.com/NTU-Mecatron/Mecatron-Kicad/main/pcm/packages.json",
         "sha256": sha256(pkgPath),
         "update_timestamp": int(time.time()),
     },    
