@@ -6,15 +6,15 @@
     "identifier": "mecatron-kicad-lib",
     "type": "library",
     "author": {
-        "name": "NTU Mecatron",
+        "name": "mecatron",
         "contact": {
             "web": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
         }
     },
     "maintainer": {
-        "name": "NTU Mecatron",
+        "name": "Jerry Zhang",
         "contact": {
-            "web": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
+            "web": "https://github.com/jerryrzhang"
         }
     },
     "license": "CERN-OHL-S-2.0",
