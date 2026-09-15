@@ -24,6 +24,9 @@ fp-info-cache
 .vscode/launch.json
 .vscode/ipch
 
+# zipped output for pcm
+/dist
+
 # Created by https://www.toptal.com/developers/gitignore/api/windows,linux,macos,platformio
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,macos,platformio
 
