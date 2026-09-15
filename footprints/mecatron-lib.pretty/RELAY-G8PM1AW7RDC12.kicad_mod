@@ -914,7 +914,7 @@
 			(checksum "B05E5B29CC55639A249CF8FB2BE8605D")
 		)
 	)
-	(model "kicad-embed://Relay-G8PM1AW7RDC12.step"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/Relay.3dshapes/Relay-G8PM1AW7RDC12.step"
 		(offset
 			(xyz 0 0 0)
 		)

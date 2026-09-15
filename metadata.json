@@ -1,35 +1,23 @@
 {
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
     "name": "Mecatron KiCad Library",
     "description": "Footprints, symbols, and 3D models for Mecatron projects.",
     "description_full": "The Mecatron KiCad Library provides a unified set of schematic symbols, PCB footprints, and 3D models used across Mecatron projects. This collection is designed for high-quality mechanical and electronic design integration in KiCad. It includes verified component geometries, standardized naming, and consistent 3D alignment to support professional PCB workflows.",
-    "identifier": "mecatron.kicad.library",
+    "identifier": "mecatron-kicad-lib",
     "type": "library",
-    "author": [
-        {
-            "name": "Scott Cheng JX",
-            "contact": {
-                "email": "scottcjx.w@gmail.com",
-                "github": "https://github.com/scottcjx"
-            }
-        },
-        {
-            "name": "Mecatron"
+    "author": {
+        "name": "mecatron",
+        "contact": {
+            "web": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
         }
-    ],
-    "maintainer": [
-        {
-            "name": "Scott Cheng JX",
-            "contact": {
-                "email": "scottcjx.w@gmail.com",
-                "github": "https://github.com/scott-cjx"
-            }
-        },
-        {
-            "name": "Mecatron Research Group"
+    },
+    "maintainer":{ 
+        "name": "mecatron",
+        "contact": {
+            "web": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
         }
-    ],
-    "category": "general",
-    "license": "CERN-OHL-S",
+    },
+    "license": "CERN-OHL",
     "resources": {
         "homepage": "https://github.com/NTU-Mecatron/Mecatron-Kicad",
         "documentation": "https://github.com/NTU-Mecatron/Mecatron-Kicad/wiki",
@@ -41,11 +29,14 @@
         "library",
         "footprints",
         "symbols",
-        "3dmodels",
+        "models-3d",
         "kicad"
     ],
-    "keep_on_update": [
-        ".*\\.cfg$",
-        ".*user_custom.*"
+    "versions": [
+        {
+            "version": "1.0.0",
+            "status": "stable",
+            "kicad_version": "9.0.0"
+        }
     ]
 }
