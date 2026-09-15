@@ -27,6 +27,9 @@ fp-info-cache
 # zipped output for pcm
 /dist
 
+#pcm itself
+/pcm
+
 # Created by https://www.toptal.com/developers/gitignore/api/windows,linux,macos,platformio
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,macos,platformio
 

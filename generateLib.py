@@ -2,16 +2,30 @@ import hashlib, json, time
 import zipfile
 from pathlib import Path
 
+
+
+
 # Zip File
 # https://realpython.com/python-zipfile/#creating-populating-and-extracting-your-own-zip-files
 directory = Path(".")
 
+metadataPath = directory / "metadata.json"
+distDir = directory / "dist"
+# read metadata
+with metadataPath.open("r", encoding="utf-8") as f:
+    meta = json.load(f)
+
+version = meta["versions"][0]["version"]
+
+print(f"Building Mecatron KiCad library version {version}")
+
+
 include = ["footprints", "symbols", "3dmodels", "resources", "metadata.json"]
-zipPath = Path("dist/mecatron-kicad-lib-1.0.0.zip")
+zipPath = distDir / f"mecatron-kicad-lib-{version}.zip"
 zipPath.parent.mkdir(parents=True, exist_ok=True)   # creates dist/ if absent
 installSize = 0
 
-with zipfile.ZipFile('dist/mecatron-kicad-lib-1.0.0.zip', 'w', zipfile.ZIP_DEFLATED) as zipf:
+with zipfile.ZipFile(zipPath, 'w', zipfile.ZIP_DEFLATED) as zipf:
     for name in include:
         entry = directory / name #join tgt
 

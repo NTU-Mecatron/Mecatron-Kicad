@@ -23,6 +23,7 @@
       "resources": {
         "homepage": "https://github.com/NTU-Mecatron/Mecatron-Kicad",
         "documentation": "https://github.com/NTU-Mecatron/Mecatron-Kicad/wiki",
+        "issue-tracker": "https://github.com/NTU-Mecatron/Mecatron-Kicad/issues",
         "source": "https://github.com/NTU-Mecatron/Mecatron-Kicad"
       },
       "tags": [
@@ -38,10 +39,10 @@
           "version": "1.0.0",
           "status": "stable",
           "kicad_version": "9.0.0",
-          "download_url": "http://localhost:8000/dist/mecatron-kicad-lib-1.0.0.zip",
-          "download_sha256": "4fcc1f2a50d4c71cb1c7326a23b9d9d7d8319fd05883b64ac24409db40018fad",
-          "download_size": 11768836,
-          "install_size": 46865146
+          "download_url": "https://ntu-mecatron.github.io/Mecatron-Kicad/dist/mecatron-kicad-lib-1.0.0.zip",
+          "download_sha256": "ea579276ed12345fe29b3f112e2fcb2a752c43c61c569e3019c238edbbdeba18",
+          "download_size": 11853783,
+          "install_size": 47183089
         }
       ]
     }

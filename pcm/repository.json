@@ -8,8 +8,8 @@
     }
   },
   "packages": {
-    "url": "http://localhost:8000/pcm/packages.json",
-    "sha256": "afb0f78b1090568287541f529941e782362e620a792766f57e480b873ceeb32a",
-    "update_timestamp": 1789396635
+    "url": "https://ntu-mecatron.github.io/Mecatron-Kicad/pcm/packages.json",
+    "sha256": "61f48e993417882a87250f0bfa25675e51bb89284ab5aacedc17b21a7651b566",
+    "update_timestamp": 1789481046
   }
 }
