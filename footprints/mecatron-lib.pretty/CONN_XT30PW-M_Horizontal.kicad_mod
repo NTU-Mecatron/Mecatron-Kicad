@@ -1,4 +1,4 @@
-(footprint "AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+(footprint "CONN_XT30PW-M_Horizontal"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -2236,7 +2236,7 @@
 			(checksum "4F11950CB57323306C0FFF55D00A647C")
 		)
 	)
-	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/AMASS.3dshapes/Amass_XT30PW-M.step"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/Conn.3dshapes/Conn_XT30PW-M_Hori.step"
 		(offset
 			(xyz -2.5 10 0)
 		)

@@ -1,4 +1,4 @@
-(footprint "AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+(footprint "CONN_XT30UPB-F_Vertical"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -2200,7 +2200,7 @@
 			(checksum "1B28CB8D5440AA4F17767E7F4DBC3E2B")
 		)
 	)
-	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/AMASS.3dshapes/Amass_XT30UPB-F.step"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/Conn.3dshapes/Conn_XT30UPB-F_Vert.step"
 		(offset
 			(xyz 0 0 0)
 		)
