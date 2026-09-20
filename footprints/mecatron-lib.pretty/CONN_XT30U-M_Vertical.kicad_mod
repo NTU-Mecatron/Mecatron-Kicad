@@ -1,4 +1,4 @@
-(footprint "AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+(footprint "CONN_XT30U-M_Vertical"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -285,15 +285,4 @@
 		(uuid "4afc9e85-8b2a-4665-901f-7a72bf53cc89")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/AMASS.3dshapes/Amass_XT30UPB-M.step"
-		(offset
-			(xyz 2.5 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )
