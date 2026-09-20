@@ -22,7 +22,8 @@ print(f"Building Mecatron KiCad library version {version}")
 
 include = ["footprints", "symbols", "3dmodels", "resources", "metadata.json"]
 zipPath = distDir / f"mecatron-kicad-lib-{version}.zip"
-zipPath.parent.mkdir(parents=True, exist_ok=True)   # creates dist/ if absent
+Path("pcm").mkdir(parents=True, exist_ok=True)     # add before writing repository.json/packages.json
+Path("dist").mkdir(parents=True, exist_ok=True)
 installSize = 0
 
 with zipfile.ZipFile(zipPath, 'w', zipfile.ZIP_DEFLATED) as zipf:
