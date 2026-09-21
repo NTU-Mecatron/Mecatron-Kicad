@@ -256,7 +256,7 @@
 		(uuid "de552ae9-cde6-4643-8cc7-9de2579dadae")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Conn.3dshapes/CONN_XT90PW-M_1x02_P10.90mm_Horizontal.step"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/Conn.3dshapes/Conn_XT90PW-M_Hori.step"
 		(offset
 			(xyz 5.45 9.38 0)
 		)

@@ -385,7 +385,7 @@
 		(uuid "37540b69-f475-4996-8f42-d46311a5c5b8")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/Conn_XT90PB-F_Vert.stp"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/Conn.3dshapes/Conn_XT90PB-F_Vert.stp"
 		(offset
 			(xyz 15 5 0)
 		)
