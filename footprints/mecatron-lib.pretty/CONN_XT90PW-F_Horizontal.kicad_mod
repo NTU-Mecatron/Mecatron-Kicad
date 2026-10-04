@@ -1,4 +1,4 @@
-(footprint "CONN_XT90PW-F_Horizontal_1"
+(footprint "CONN_XT90PW-F_Horizontal"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "CONN_XT90PW-F_Horizontal_1"
+	(property "Value" "CONN_XT90PW-F_Horizontal"
 		(at 3.6 4 0)
 		(layer "F.Fab")
 		(uuid "645bdbdc-8f65-42ef-a021-2d3e7d74a739")
