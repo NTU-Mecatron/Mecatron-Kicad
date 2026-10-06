@@ -1,14 +1,14 @@
 (footprint "CONN_XT90PW-F_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Connector XT90 Horizontal PCB Female")
 	(tags "RC")
 	(property "Reference" "REF**"
 		(at 5.449999 -17.5 0)
 		(layer "F.SilkS")
-		(uuid "f503ea07-bcf1-4924-930a-6f7e9cd312f8")
+		(uuid "ed34bfcb-7a8a-4582-afc4-0dd11354a660")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "CONN_XT90PW-F_Horizontal"
 		(at 3.6 4 0)
 		(layer "F.Fab")
-		(uuid "645bdbdc-8f65-42ef-a021-2d3e7d74a739")
+		(uuid "6d786ee0-888f-4c7b-a713-036bcb401938")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c91ab4ef-6ff8-439a-a714-84cbf2a133e8")
+		(uuid "da6ad923-5f3a-4bd3-b199-9e0c736ef84d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5aae1394-5674-4352-8556-b62c1b6607b3")
+		(uuid "996a682a-6ad2-4bf1-94d3-3b54843f154e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.968 -11.7125)
 		(end 15.833 -11.7125)
@@ -62,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2fd27337-0af0-4834-9800-965c0705a791")
+		(uuid "f337ae33-32ed-4ce5-8dc3-1883c49a9f97")
 	)
 	(fp_line
 		(start -4.968 -10.5125)
@@ -72,7 +73,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "bdd20215-7041-4f34-9f30-e87aec0adb39")
+		(uuid "3e8633dd-e91f-489e-a262-537df5b18739")
 	)
 	(fp_line
 		(start -4.968 -10.5125)
@@ -82,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "dd18bc7f-82ca-430f-857a-513dac38e9f9")
+		(uuid "0ab67b02-b429-4896-9155-2c3e1205022f")
 	)
 	(fp_line
 		(start -3.568 -22.7125)
@@ -92,27 +93,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "24e91786-5283-413e-9cb5-27bde3a7508c")
-	)
-	(fp_line
-		(start -0.018 3.3875)
-		(end -0.018 3.3875)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b6287000-210c-4f2b-a3a0-917a920c0039")
-	)
-	(fp_line
-		(start -0.018 3.4875)
-		(end -0.018 3.4875)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "df0ed7f9-c28d-4e0d-ae1f-efb541098d27")
+		(uuid "4b53e10a-33d7-43a7-9508-69e981c28b2d")
 	)
 	(fp_line
 		(start 3.7 2.6)
@@ -122,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ba116096-3ccc-4cc8-a185-5325439e4e24")
+		(uuid "770ded70-8d32-4b0a-b286-70f8c7c34d1e")
 	)
 	(fp_line
 		(start 14.432 -22.7125)
@@ -132,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "da636f03-99d5-4c57-9e81-45147fe594e1")
+		(uuid "c8faafc7-f255-4544-8659-a0ee55a1c461")
 	)
 	(fp_line
 		(start 14.432 -11.7125)
@@ -142,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2f0816b3-4e5d-4251-9ebd-f3892036c9ba")
+		(uuid "17b922ad-66ce-4f3f-b391-6fce69593d78")
 	)
 	(fp_line
 		(start 15.833 -11.7125)
@@ -152,7 +133,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "47a02f45-2325-4fd6-ba2b-4ae5bdf62b72")
+		(uuid "6b4f42fc-02e8-4964-8dbc-20c5e4af76ae")
 	)
 	(fp_line
 		(start 15.833 -10.5125)
@@ -162,7 +143,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "1188b6ae-7e85-47a7-a25b-9776324e0b0a")
+		(uuid "83e2498a-69f9-4185-8974-f63a9aaecec8")
 	)
 	(fp_arc
 		(start -4.064641 1.1)
@@ -173,29 +154,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "37657eee-b379-4145-b65d-79c82b53e49e")
-	)
-	(fp_arc
-		(start -0.018 3.3875)
-		(mid 0.032 3.4375)
-		(end -0.018 3.4875)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4479b1c5-a334-4a27-ad04-4a778ac86178")
-	)
-	(fp_arc
-		(start -0.018 3.4875)
-		(mid -0.068 3.4375)
-		(end -0.018 3.3875)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "09140421-b4a9-4270-ac6c-d5ed073b5611")
+		(uuid "a5e391b8-bbf3-46d2-9b79-ec45bd738e4f")
 	)
 	(fp_arc
 		(start 15.9 -1.522958)
@@ -206,7 +165,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "984e1a82-2210-4ba5-a07e-0dacfc97e76e")
+		(uuid "216c6ace-8cbd-46ce-8efe-bb9431f4ecb0")
 	)
 	(fp_rect
 		(start -5.5 -23.2)
@@ -217,7 +176,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "1b669285-9556-4afd-96a1-85e7ff8c9b2e")
+		(uuid "a1a76fc4-f3d1-49b6-a78f-c69b94137f06")
 	)
 	(fp_line
 		(start -4.968 -11.7125)
@@ -227,7 +186,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1c0a4450-35b5-49f5-a235-f6ecb6d3a8df")
+		(uuid "a24c862b-0753-411f-903b-06aacf92dc02")
 	)
 	(fp_line
 		(start -4.968 2.6875)
@@ -237,7 +196,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e4d356bd-5aff-4663-a9b5-bbb0b20b732f")
+		(uuid "f4fbe981-0439-4dc1-8886-0cde30ca90b7")
 	)
 	(fp_line
 		(start -3.568 -22.7125)
@@ -247,7 +206,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e4b3e055-4b56-44d1-9f01-a33f61e62e18")
+		(uuid "bfb14c47-2be7-4abe-ae98-7089899356df")
 	)
 	(fp_line
 		(start -3.568 -11.7125)
@@ -257,7 +216,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1541d2e3-649b-4b68-ab88-4485adf9fe5c")
+		(uuid "a48d6bf3-f72d-4e3b-a0c8-ad8314f0f55b")
 	)
 	(fp_line
 		(start -0.85 2.51)
@@ -267,7 +226,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "bf6104a1-a529-4c00-b4ae-92001543f7ec")
+		(uuid "76fa5a78-8648-4655-a004-6c5b983d526c")
 	)
 	(fp_line
 		(start 14.432 -22.7125)
@@ -277,7 +236,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2b05384f-2650-4a6d-9f5a-e05bb3ee4f9e")
+		(uuid "7fac8f79-a08f-4399-be9a-d4ea8f327bad")
 	)
 	(fp_line
 		(start 15.833 -11.7125)
@@ -287,7 +246,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7d4c3d77-85bc-4d73-9cf7-42262886c575")
+		(uuid "28d10d5c-4a30-456b-a563-6ab3086facb4")
 	)
 	(fp_line
 		(start 15.833 2.6875)
@@ -297,7 +256,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c3bc2812-2033-415f-930e-cd8e18e40a9e")
+		(uuid "39eeb3b6-e29e-4431-b1ec-79837e7e2ecd")
 	)
 	(fp_arc
 		(start -0.85 2.51)
@@ -308,7 +267,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fb0b1440-18be-4b5f-b469-b4cfaf66fc53")
+		(uuid "6eb77922-1ecb-432b-a4e2-9bbfe30622e9")
 	)
 	(fp_arc
 		(start 15.85 -1.59)
@@ -319,12 +278,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b7c09c15-282b-4731-8942-008851172201")
+		(uuid "8ed0f17b-6648-4b35-893f-a175a8d02dac")
 	)
-	(fp_text user "-"
-		(at 14.7 2.6 0)
+	(fp_text user "+"
+		(at -4.4 2.6 0)
 		(layer "F.SilkS")
-		(uuid "31bfc3e7-147b-4531-a0c5-e3a305c1647d")
+		(uuid "316e3afc-6998-4a24-a167-0efd71a1d41b")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -332,10 +291,10 @@
 			)
 		)
 	)
-	(fp_text user "+"
-		(at -4.4 2.6 0)
+	(fp_text user "-"
+		(at 14.7 2.6 0)
 		(layer "F.SilkS")
-		(uuid "7668b629-abd6-4e14-be84-df90ae487fc6")
+		(uuid "150f71b2-9261-4eac-9dfb-398405d7741c")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -346,7 +305,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 5.449999 -8.5 0)
 		(layer "F.Fab")
-		(uuid "b1ba92d5-0d41-4be9-b483-47d08dc1785d")
+		(uuid "8c5f8d26-e0c9-41e0-9974-6874d0cce396")
 		(effects
 			(font
 				(size 1 1)
@@ -361,7 +320,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
-		(uuid "f934a442-23d6-4e5b-908f-bb9199ad6f8b")
+		(uuid "b3ce9a1e-8a82-4190-83cf-47b498d3e217")
 	)
 	(pad "-" thru_hole circle
 		(at 10.899998 0)
@@ -369,7 +328,7 @@
 		(drill 3.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "386faf3f-2adf-472a-84bf-bd511edf2429")
+		(uuid "39cf0474-f0bb-4bf8-bbaa-791bfdda64fe")
 	)
 	(pad "MP" thru_hole rect
 		(at -4 -8.9)
@@ -377,7 +336,7 @@
 		(drill oval 0.6 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "72366acb-6c86-4134-89df-01ed6e4dc8e0")
+		(uuid "f38018bc-1351-4b75-966b-30407272d8e4")
 	)
 	(pad "MP" thru_hole rect
 		(at 14.9 -8.9)
@@ -385,7 +344,7 @@
 		(drill oval 0.6 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "de552ae9-cde6-4643-8cc7-9de2579dadae")
+		(uuid "da03b913-fec4-49db-93a3-367d3f238432")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/Conn.3dshapes/Conn_XT90PW-F_Hori.step"
