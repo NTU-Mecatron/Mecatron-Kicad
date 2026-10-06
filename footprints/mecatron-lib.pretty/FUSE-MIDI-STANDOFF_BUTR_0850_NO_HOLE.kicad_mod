@@ -1065,7 +1065,7 @@
 			(checksum "5DCE788DC7D5DA0F990B78253B0285F1")
 		)
 	)
-	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/Fuse.3dshapes/BUTR_0850.step"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/Fuses.3dshapes/BUTR_0850.step"
 		(offset
 			(xyz 15 0 7.1)
 		)
@@ -1076,7 +1076,7 @@
 			(xyz -90 -0 -0)
 		)
 	)
-	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/Fuse.3dshapes/BUTR_0850.step"
+	(model "${KICAD9_3RD_PARTY}/3dmodels/mecatron-kicad-lib/Fuses.3dshapes/BUTR_0850.step"
 		(offset
 			(xyz -15 0 7.1)
 		)
