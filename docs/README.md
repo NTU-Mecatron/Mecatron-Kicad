@@ -1,4 +1,5 @@
 # Mecatron Kicad
+https://ntu-mecatron.github.io/Mecatron-Kicad/pcm/repository.json
 This repository contains a KiCad PCM library for Mecatron's custom KiCad footprints, and their attached symbols and 3d-Models.
 
 ## Contents
